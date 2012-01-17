@@ -1,13 +1,20 @@
 #summary First Phase of the Project
+#labels Phase-Design
 
 = Introduction =
 
-Inception is the phase where we analyzed whether or not is worth to build our system.
+Inception is the phase where we analyze whether or not is worth to build our system.
 
 
-= Details =
+= Overview =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+We need to take a look at:
+  * Actors and Use-Cases
+  * Detail the important use-cases
+  * Brief description of the other use-cases
+
+= Actors and Use-Cases =
+
+= Detailed Use-Cases =
+
+= Brief Use-Cases =
