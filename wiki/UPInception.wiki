@@ -19,8 +19,8 @@ We need to take a look at:
   * Super User
 == Use-Cases ==
   * Manage Users
-  * Manage Tenant
   * Manage Housing
+  * Manage Inhabitants
   * Manage Facilities
   * Establish Rent
   * Terminate Rent
