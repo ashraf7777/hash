@@ -18,6 +18,7 @@ We need to take a look at:
   * User
   * Super User
 == Use-Cases ==
+  * Manage Users
   * Manage Tenant
   * Manage Housing
   * Establish Rent
