@@ -25,7 +25,7 @@ We need to take a look at:
   * Establish Rent
   * Terminate Rent
   * Manage Communication
-  * 
+  * Back-up and Restore Data
 = Detailed Use-Cases =
 
 = Brief Use-Cases =
