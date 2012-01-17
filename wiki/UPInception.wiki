@@ -3,7 +3,7 @@
 
 = Introduction =
 
-Inception is the phase where we analyze whether or not is worth to build our system.
+Inception is the phase where we analyze whether or not it is worth to build our system.
 
 
 = Overview =
