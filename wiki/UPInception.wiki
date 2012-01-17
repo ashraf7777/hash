@@ -21,8 +21,11 @@ We need to take a look at:
   * Manage Users
   * Manage Tenant
   * Manage Housing
+  * Manage Facilities
   * Establish Rent
   * Terminate Rent
+  * Manage Communication
+  * 
 = Detailed Use-Cases =
 
 = Brief Use-Cases =
