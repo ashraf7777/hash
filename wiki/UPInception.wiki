@@ -21,6 +21,7 @@ We need to take a look at:
   * Manage Users
   * Manage Housing
   * Manage Inhabitants
+  * Manage Community
   * Manage Facilities
   * Establish Rent
   * Terminate Rent
