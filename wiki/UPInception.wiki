@@ -16,9 +16,12 @@ We need to take a look at:
 = Actors and Use-Cases =
 == Actors ==
   * User
-  * Power User
+  * Super User
 == Use-Cases ==
-
+  * Manage Tenant
+  * Manage Housing
+  * Establish Rent
+  * Terminate Rent
 = Detailed Use-Cases =
 
 = Brief Use-Cases =
