@@ -19,6 +19,7 @@ We need to take a look at:
   * Super User
 == Use-Cases ==
   * Manage Users
+  * Log in
   * Manage Housing
   * Manage Inhabitants
   * Manage Community
