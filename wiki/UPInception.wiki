@@ -33,9 +33,7 @@ We need to take a look at:
 ||Scope||HASH -  Administration System for Housing||
 ||Level||User Goal||
 ||Primary actor||User||
-||Stakeholders and interests||User needs to: 
-1. Add apartments in the system
-Apartment will be added in the system||
+||Stakeholders and interests||User needs to: 1. Add apartments in the system Apartment will be added in the system||
 ||Preconditions||
 User is identified and authenticated
 Apartment is not in the system.||
