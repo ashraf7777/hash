@@ -29,5 +29,38 @@ We need to take a look at:
   * Manage Communication
   * Back-up and Restore Data
 = Detailed Use-Cases =
+||Use case name||Manage Users||
+||Scope||HASH -  Administration System for Housing||
+||Level||User Goal||
+Primary actor
+User
+Stakeholders and interests
+User needs to: 
+1. Add apartments in the system
+Apartment will be added in the system
+reconditions
+User is identified and authenticated
+Apartment is not in the system.
+Success guarantee
+A_info is saved into the system.
+Main Success Scenario
+1. User wants to register a new Apartment
+2. User enters apartment's info (A_info)
+3. System asks for confirmation
+4. System saves apartment’s information.
+Extensions
+2. User inserts Invalid A_Info:
+- User is informed about the failure and is asked to correct it
+4. System is unable to save the Apartment
+- System sends feedback to User and ask for correction and retry
+Special Requirements
+None
+Technology and Data Variations List
+None
+Frequency of Occurrence
+Every time an apartment is added to system
+Miscellaneous
+None
+
 
 = Brief Use-Cases =
