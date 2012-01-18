@@ -29,11 +29,12 @@ We need to take a look at:
   * Manage Communication
   * Back-up and Restore Data
 = Detailed Use-Cases =
+The Use Case is detailed in fully dressed format
 ||Use case name||Manage Users||
 ||Scope||HASH -  Administration System for Housing||
 ||Level||User Goal||
 ||Primary actor||Power User||
-||Stakeholders and interests||Users needs to: 1. Manage Users by adding, editing or deleting||
+||Stakeholders and interests||Users needs to: 1. Manage Users by adding, updateing or removing||
 ||Preconditions||System is Running and Power User authenticated||
 ||Success guarantee||User is saved into the system.||
 ||Main Success Scenario||# Power User enters User's information # System asks for review and confirmation # System saves the new user.||
@@ -45,3 +46,27 @@ We need to take a look at:
 
 
 = Brief Use-Cases =
+  * Log in
+Main Success Scenario:
+  # User types in his credentials
+  # System grants access
+  * Manage Housing
+Main Success Scenario:
+  # User requests system to add, update or remove housing
+  # System asks for confirmation
+  # System applies the changes
+  * Manage Inhabitants
+Main Success Scenario:
+  # User requests system to add, update or remove inhabitants
+  # System asks for confirmation
+  # System applies the changes
+  * Manage Community
+Main Success Scenario:
+  # User requests system to add, update or remove communities
+  # System asks for confirmation
+  # System applies the changes
+  * Manage Facilities
+Main Success Scenario:
+  # User requests system to add, update or remove facilities
+  # System asks for confirmation
+  # System applies the changes
