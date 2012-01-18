@@ -18,19 +18,19 @@ We need to take a look at:
   * User
   * Super User
 == Use-Cases ==
-  * Manage Users
-  * Log in
-  * Manage Housing
-  * Manage Inhabitants
-  * Manage Community
-  * Manage Facilities
-  * Establish Rent
-  * Terminate Rent
-  * Manage Communication
-  * Back-up and Restore Data
+  # Manage Users
+  # Log in
+  # Manage Housing
+  # Manage Inhabitants
+  # Manage Community
+  # Manage Facilities
+  # Establish Rent
+  # Terminate Rent
+  # Manage Communication
+  # Back-up and Restore Data
 = Detailed Use-Cases =
 The Use Case is detailed in fully dressed format
-||Use case name||Manage Users||
+||Use case name||UC1 - Manage Users||
 ||Scope||HASH -  Administration System for Housing||
 ||Level||User Goal||
 ||Primary actor||Power User||
@@ -46,26 +46,27 @@ The Use Case is detailed in fully dressed format
 
 
 = Brief Use-Cases =
-  * Log in
+
+== Log in ==
 Main Success Scenario:
   # User types in his credentials
   # System grants access
-  * Manage Housing
+== UC2 - Manage Housing ==
 Main Success Scenario:
   # User requests system to add, update or remove housing
   # System asks for confirmation
   # System applies the changes
-  * Manage Inhabitants
+== UC3 - Manage Inhabitants ==
 Main Success Scenario:
   # User requests system to add, update or remove inhabitants
   # System asks for confirmation
   # System applies the changes
-  * Manage Community
+== UC4 - Manage Community ==
 Main Success Scenario:
   # User requests system to add, update or remove communities
   # System asks for confirmation
   # System applies the changes
-  * Manage Facilities
+== UC5 - Manage Facilities ==
 Main Success Scenario:
   # User requests system to add, update or remove facilities
   # System asks for confirmation
