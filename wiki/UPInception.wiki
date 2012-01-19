@@ -12,6 +12,15 @@ We need to take a look at:
   * Actors and Use-Cases
   * Detail the important use-cases
   * Brief description of the other use-cases
+Artifacts:
+  * Use-Case Model
+  * Supplementary Specification
+  * Glossary
+  * Risk List + Management Plan
+  * Prototypes
+  * Iteration Plan
+  * Phase Plan + Software Development Plan
+  * Development Case 
 
 = Actors and Use-Cases =
 == Actors ==
