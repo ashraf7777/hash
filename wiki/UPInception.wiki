@@ -24,6 +24,7 @@ We need to take a look at:
   # Manage Inhabitants
   # Manage Community
   # Manage Facilities
+  # Dynamic Search
   # Establish Rent
   # Terminate Rent
   # Manage Communication
