@@ -26,6 +26,7 @@ Artifacts:
 == Actors ==
   * User
   * Super User
+  * Time
 == Use-Cases ==
   # Manage Things (General CRUD Use-Case)
     * Manage Users
@@ -34,17 +35,33 @@ Artifacts:
     * Manage Community
     * Manage Facilities
     * Manage Communication
+    * ...
   # Log in
   # Establish Rent
   # Terminate Rent
   # Back-up and Restore Data
+
+
+= Brief Use-Cases =
+
+== UC2 - Manage Things ==
+Main Success Scenario:
+  # User requests system to add, update or remove a thing
+  # System asks for confirmation
+  # System applies the changes
+
+== Log in ==
+Main Success Scenario:
+  # User types in his credentials
+  # System grants access
+
 = Detailed Use-Cases =
 The Use Case is detailed in fully dressed format
 ||Use case name||UC1 - Manage Users||
 ||Scope||HASH -  Administration System for Housing||
 ||Level||User Goal||
 ||Primary actor||Power User||
-||Stakeholders and interests||Users needs to: 1. Manage Users by adding, updateing or removing||
+||Stakeholders and interests||Users needs to: 1. Manage Users by adding, updating or removing||
 ||Preconditions||System is Running and Power User authenticated||
 ||Success guarantee||User is saved into the system.||
 ||Main Success Scenario||# Power User enters User's information # System asks for review and confirmation # System saves the new user.||
@@ -53,31 +70,3 @@ The Use Case is detailed in fully dressed format
 ||Technology and Data Variations List||None||
 ||Frequency of Occurrence||Every time a user needs to be managed||
 ||Miscellaneous||None||
-
-
-= Brief Use-Cases =
-
-== Log in ==
-Main Success Scenario:
-  # User types in his credentials
-  # System grants access
-== UC2 - Manage Housing ==
-Main Success Scenario:
-  # User requests system to add, update or remove housing
-  # System asks for confirmation
-  # System applies the changes
-== UC3 - Manage Inhabitants ==
-Main Success Scenario:
-  # User requests system to add, update or remove inhabitants
-  # System asks for confirmation
-  # System applies the changes
-== UC4 - Manage Community ==
-Main Success Scenario:
-  # User requests system to add, update or remove communities
-  # System asks for confirmation
-  # System applies the changes
-== UC5 - Manage Facilities ==
-Main Success Scenario:
-  # User requests system to add, update or remove facilities
-  # System asks for confirmation
-  # System applies the changes
