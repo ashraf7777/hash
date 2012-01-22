@@ -27,16 +27,16 @@ Artifacts:
   * User
   * Super User
 == Use-Cases ==
-  # Manage Users
+  # Manage Things
+    * Manage Users
+    * Manage Housing
+    * Manage Inhabitants
+    * Manage Community
+    * Manage Facilities
+    * Manage Communication
   # Log in
-  # Manage Housing
-  # Manage Inhabitants
-  # Manage Community
-  # Manage Facilities
-  # Dynamic Search
   # Establish Rent
   # Terminate Rent
-  # Manage Communication
   # Back-up and Restore Data
 = Detailed Use-Cases =
 The Use Case is detailed in fully dressed format
