@@ -27,7 +27,7 @@ Artifacts:
   * User
   * Super User
 == Use-Cases ==
-  # Manage Things
+  # Manage Things (General CRUD Use-Case)
     * Manage Users
     * Manage Housing
     * Manage Inhabitants
