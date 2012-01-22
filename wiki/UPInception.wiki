@@ -39,21 +39,42 @@ Artifacts:
   # Log in
   # Establish Rent
   # Terminate Rent
-  # Back-up and Restore Data
+  # Back-up Data
+  # Restore Data
 
 
 = Brief Use-Cases =
 
-== UC2 - Manage Things ==
+== UC1 - Manage Things ==
 Main Success Scenario:
   # User requests system to add, update or remove a thing
   # System asks for confirmation
   # System applies the changes
 
-== Log in ==
+== UC2 - Log in ==
 Main Success Scenario:
   # User types in his credentials
   # System grants access
+
+
+== UC3 - Establish Rent ==
+Main Success Scenario:
+  # User Assigns a Propriety to one or more inhabitants
+  # System asks for permission and review of data
+  # System applies changes
+
+== UC4 - Terminate Rent ==
+Main Success Scenario:
+  # User remove a propriety from one or more inhabitants
+  # System asks for permission and review of data
+  # System applies changes
+
+== UC5 - Backup Data==
+  User asks system to make a data backup, system asks for permission, system makes a backup on external medium.
+
+== UC6 - Restore Data==
+  User asks system to make a data restore, system asks for permission, system checks and integrate the backed-up data with the existing data.
+
 
 = Detailed Use-Cases =
 The Use Case is detailed in fully dressed format
