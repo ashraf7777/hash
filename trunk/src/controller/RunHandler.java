@@ -25,6 +25,7 @@ public class RunHandler {
 		System.out.println(u1.selectQuery());
 		System.out.println(u1.updateQuery(u2));
 		System.out.println(u1.deleteQuery());
+		System.out.println(u1.createTableQuery());
 	}
 
 }

@@ -12,11 +12,21 @@ public class User extends Thing{
 	protected String phone;
 	
     
-
-	public User(int tID, String name, String username, String password,
+	/**
+	 * Main constructor
+	 * @param uID User ID 
+	 * @param name
+	 * @param username
+	 * @param password
+	 * @param type
+	 * @param iD
+	 * @param email
+	 * @param phone
+	 */
+	public User(int uID, String name, String username, String password,
 			String type, String iD, String email, String phone) {
-		super(tID);
-		uID=tID;
+		super(uID);
+		this.uID=uID;
 		this.name = name;
 		this.username = username;
 		this.password = password;
@@ -25,6 +35,11 @@ public class User extends Thing{
 		this.email = email;
 		this.phone = phone;
 	}
+	
+	/**
+	 * Constructor using an array of Objects
+	 * @param o - Array of Objects containing all the parameters (must have exactly 8 elements)
+	 */
 	public User(Object[] o)
 	{
 		uID=(Integer) o[0];
