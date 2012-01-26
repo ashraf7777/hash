@@ -134,4 +134,26 @@ public class Thing {
 		else result = result.substring(0, result.length()-regex1.length()); //cutting the last regex1 that appears in the query (it is illegal in SQL
 		return result;
 	}
+	
+	/**
+	 * Generates a create Table Query for the Thing using it's Class name and fields
+	 * @return a String containing the definition of the query
+	 */
+	public String createTableQuery()
+	{
+		String query = "create table "; //constant part of the query
+		query += this.getClass().getSimpleName() + " ( ";
+		Field[] fields = this.getClass().getDeclaredFields(); //finding Fields present in a Class
+		for (Field f:fields)
+		{
+			if(f.getName().contains("ID") && f.getType().getSimpleName().equals("int")) // in case we have an int identifier "ID" we increment it automatically
+				query += f.getName() + " " + f.getType().getSimpleName() + " not null auto_increment, ";
+			else if (f.getType().getSimpleName().equals("String"))
+				query += f.getName() + " varchar(250) not null, ";
+			else query += f.getName() + " " + f.getType().getSimpleName() + " not null, ";
+		}
+		query = query.substring(0, query.length()-2);
+		query += ")";
+		return query;
+	}
 }
